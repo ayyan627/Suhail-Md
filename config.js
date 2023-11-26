@@ -3,7 +3,7 @@ const fs = require('fs-extra')
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : '923184474176';
+global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : '923439019639';
 global.mongodb = process.env.MONGODB_URI  || ""; // "mongodb+srv://suhail:suhail@cluster0.tuhzpez.mongodb.net/?retryWrites=true&w=majority" ;//process.env.MONGODB_URI || "mongodb+srv://Suhail:suhail@cluster0.rzhkoqf.mongodb.net/?retryWrites=true&w=majority" ;
 global.DATABASE_URI = process.env.DATABASE_URI || "" ; // "postgres://drchnhfxnxvkhb:fe7e6999d202f14f61af1837ef5e1eb07980f37b854ba57c34add33a21453009@ec2-3-221-177-27.compute-1.amazonaws.com:5432/d74crch1e6dgt0";
 global.port= false // Math.floor(Math.random() * (9999 - 1000 + 1)) + 1000  ; 
@@ -24,8 +24,8 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/d5b1c35
 
 module.exports = {
   sessionName: process.env.SESSION_ID || "",
-  botname: process.env.BOT_NAME || 'sᴜʜᴀɪʟ-ᴍᴅ',
-  ownername: process.env.OWNER_NAME || `It'x Suhail`,
+  botname: process.env.BOT_NAME || 'Ayyanᴜʜᴀɪʟ-ᴍᴅ',
+  ownername: process.env.OWNER_NAME || `It'x Ayyan`,
   author: process.env.PACK_AUTHER || '',
   packname: process.env.PACK_NAME || "", // \t   𓅋 ₊₉₂⃗⃗₃₁᩺₈ͦ₄ͪ₄ᷧ₇ͥ₄ᷞ₁⃗₇₆ 𓃮 \n\nᴋɪss ʍᴇ...💋\n\nᴄʟօsᴇ ყσυɾ ᴇყᴇs...👁️🙈\n\nʍɪss ʍᴇ...♥️\n\n\n   -ᴘʟᴇᴀsᴇ ᴅᴏɴ'ᴛ ᴛᴀӄᴇ 🚮 \n\n--- ρυвʟɪᴄ вσт нᴇʀᴇ --- 
   style: process.env.STYLE || '1',  // put '1' & "2" here to check bot styles
